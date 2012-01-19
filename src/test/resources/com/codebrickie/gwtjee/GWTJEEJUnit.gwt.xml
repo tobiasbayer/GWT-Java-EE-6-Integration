@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.codebrickie.gwtjee.gwtjee'/>
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/GWTJEE/greet" class="com.codebrickie.gwtjee.server.GreetingServiceImpl" />
+
+</module>
